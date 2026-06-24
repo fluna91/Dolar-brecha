@@ -1,7 +1,4 @@
-# Dolar-brecha
-Visualizar las cotizaciones del dolar (USD/ARS). La brecha permite saber el costo de enviar dolares al exterior y operar acciones en otros mercados.
 
-"""
 Dólar Tracker — Oficial vs MEP vs CCL (minuto a minuto)
 ========================================================
 
@@ -23,4 +20,4 @@ Nota sobre "minuto a minuto":
   Si querés captura continua 24/7 sin la pestaña abierta, corré el bloque
   capture_and_store() desde un script aparte vía cron/proceso, apuntando a
   la MISMA base SQLite (DB_PATH). La app lo va a leer igual.
-"""
+
